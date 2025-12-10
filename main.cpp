@@ -48,6 +48,27 @@ int main() {
 
     cout << "\n Total number of movies: " << totalMovies << endl;
 
+    // Milestone 3
+    cout << "\n Milestone 3: Best Rated Movies \n";
+
+    double best = 0.0;
+
+    // Finding the highest possible avg
+    for (auto &p : averages) {
+    if (p.second > best) {
+        best = p.second;
+    }
+}
+
+    cout << "Highest average rating: " << best << endl;
+    cout << "Movies with this rating:\n";
+
+    // Print all movies with that highest average
+    for (auto &p : averages) {
+    if (p.second == best) {
+        cout << p.first << endl;
+    }
+}
 
 
     return 0;
