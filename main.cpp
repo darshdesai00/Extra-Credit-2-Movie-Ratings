@@ -70,9 +70,13 @@ int main() {
     }
 }
 
+// Milestone 4
+cout << "\n Milestone 4: Final Movie Report \n";
 
     return 0;
 }
+
+
 
 
 
