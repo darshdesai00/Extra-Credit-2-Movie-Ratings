@@ -39,7 +39,17 @@ int main() {
     double avg = (double)sum / p.second.size();
         averages[p.first] = avg;
     
-    
+    cout << p.first << ": ";
+        for (int r : p.second) cout << r << " ";
+        cout << "| Avg = " << avg << endl;
+
+        totalMovies++;
+    }
+
+    cout << "\n Total number of movies: " << totalMovies << endl;
+
+
+
     return 0;
 }
 
